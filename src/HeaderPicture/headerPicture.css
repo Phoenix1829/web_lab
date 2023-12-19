@@ -1,0 +1,16 @@
+.headerpictute {
+    overflow: hidden;
+  }
+  
+  .headerpictute,
+  .headerpictute * {
+    box-sizing: border-box;
+  }
+  
+  .headerpictute {
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }

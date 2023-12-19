@@ -1,35 +1,52 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import Logo from "./Logo/logo";
+import TopNavigation from "./TopNavigation/topNavigation";
+import Points from "./Points/points";
+import HeaderPicture from "./HeaderPicture/headerPicture";
+import HeaderText from "./HeaderText/headerText";
 
-function App() {
-  const [count, setCount] = useState(0)
+export default function App() {
+  const [count, setCount] = useState(0);
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div style={{ display: "flex", flexDirection: "column", gap: "70px", overflow: "hidden" }}>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "flex-start",
+          marginTop: "2%",
+          marginLeft: "10%",
+          marginRight: "10%",
+          flexWrap: "wrap",
+        }}
+      >
+        <div style={{ flex: "none" }}>
+          <Logo />
+        </div>
+        <TopNavigation />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
 
-export default App
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "flex-start",
+          marginLeft: "10%",
+          marginRight: "10%",
+          flexWrap: "wrap",
+        }}
+      >
+        <div style={{ position: "absolute", left: "-20px" }}>
+          <Points />
+        </div>
+        <div style={{ flex: "none", marginTop: "9%", marginBottom: "50px" }}>
+          <HeaderText />
+        </div>
+        <div style={{ flex: "none" }}>
+          <HeaderPicture Width="693px" Height="598px" ImageUrl="src/assets/HeaderPicture.png" />
+        </div>
+      </div>
+    </div>
+  );
+}

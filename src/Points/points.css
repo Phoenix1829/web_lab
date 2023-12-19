@@ -1,0 +1,16 @@
+.points {
+    overflow-x: visible;
+  }
+  
+  .points,
+  .points * {
+    box-sizing: border-box;
+  }
+  
+  .points {
+    position: absolute;
+    width: 131.581px;
+    height: 115px;
+    background: url(src/assets/Points.svg);
+    background-size: 100% 100%;
+  }

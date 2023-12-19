@@ -1,0 +1,66 @@
+.logo {
+    overflow: hidden;
+  }
+
+  .logo,
+  .logo * {
+    box-sizing: border-box;
+  }
+
+  .logo {
+    position: relative;
+    width: 183px;
+    height: 41px;
+    margin: 0 auto;
+  }
+  .picture {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: 0;
+    left: 0;
+    background: url(src/assets/EllipseLogo.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 1;
+    border-radius: 50%;
+  }
+  .text-symbol {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 78.05%;
+    top: 12.2%;
+    left: 7.1%;
+    font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: var(--logoTColor);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30.469px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 2;
+  }
+  .text-title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 73.17%;
+    top: 14.63%;
+    left: 28.96%;
+    font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+    color: var(--logoTextTitleColor);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.125px;
+    text-align: left;
+    white-space: nowrap;
+  }

@@ -1,0 +1,67 @@
+.HeaderText {
+    height: 650px;
+    position: relative;
+    width: 28vw;
+  }
+  
+  .HeaderText .header {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .HeaderText .TitleText {
+    color: var(--titleTextColor);
+    font-size: 48px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 56px;
+    position: relative;
+    top: 0;
+  }
+  
+  .HeaderText .DescriptionText {
+    margin-top: -100px;
+    color: var(--descriptionTextColor);
+    font-size: 21px;
+    font-weight: 300;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 32px;
+    position: relative;
+    top: 137px;
+  }
+  
+  
+  .HeaderText .Button {
+    margin-top: -100px;
+    height: 60px;
+    left: 0;
+    position: relative;
+    top: 278px;
+    width: 202px;
+    background-color: var(--buttonColor);
+    border-radius: 55px;
+  }
+  
+  .Button:hover {
+    background-color: var(--buttonHoverColor);
+  }
+
+
+  .HeaderText .ButtonText {
+    color: var(--buttonTextColor);
+    font-size: 18px;
+    font-weight: 700;
+    left: 40px;
+    letter-spacing: 0;
+    line-height: 60px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+  }

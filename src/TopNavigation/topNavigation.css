@@ -1,0 +1,33 @@
+.topnavigation {
+    height: 100%;
+    position: relative;
+    width: 545px;
+    padding-top: 13px;
+  }
+  
+  .topnavigationtext:hover {
+    text-decoration: underline;
+  }
+
+  .topnavigation .navbar {
+    position: absolute; 
+    display: flex; 
+    flex-direction: row; 
+    align-items: flex-start; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+  }
+  
+  
+  .topnavigation .topnavigationtext {
+    position: relative; 
+    color: var(--topNavigationTextColor);
+    font-family: "Muli-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    opacity: 0.5;
+  }
