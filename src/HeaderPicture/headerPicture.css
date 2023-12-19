@@ -1,13 +1,13 @@
-.headerpictute {
+.header-pictute {
     overflow: hidden;
   }
   
-  .headerpictute,
+  .header-pictute,
   .headerpictute * {
     box-sizing: border-box;
   }
   
-  .headerpictute {
+  .header-pictute {
     overflow: hidden;
     position: relative;
     background-repeat: no-repeat;

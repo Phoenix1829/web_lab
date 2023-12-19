@@ -2,12 +2,15 @@
   --logoTextTitleColor: #233248;
   --logoTColor: #ffffff;
   --titleTextColor: #000000;
-  --descriptionTextColor: #7c7987;
+  --descriptionTextColor: #7d7987;
   --buttonColor: #458ff6;
   --buttonTextColor: #ffffff;
   --logoTextColor: #233248;
   --buttonHoverColor: #6ca9ff;
   --topNavigationTextColor: #1f1534;
+  --dividerColor: #000000;
+  --shadow: 0 100px 100px 0 rgba(228, 233, 245, 0.4);
+  --serviceBackgroundColor: #ffffff;
 }
 
 body {

@@ -1,4 +1,4 @@
-import "./headerPicture.css";
+import "./HeaderPicture.css";
 
 interface IProps {
   Width: string;
@@ -17,5 +17,5 @@ export default function HeaderPicture(props: IProps) {
     backgroundImage: `url('${props.ImageUrl}')`,
   };
 
-  return <div className="headerpicture" style={style} />;
+  return <div className="header-picture" style={style} />;
 }

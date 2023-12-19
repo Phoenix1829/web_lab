@@ -1,9 +1,9 @@
-import "./headerText.css";
+import "./HeaderText.css";
 
 export default function HeaderText() {
   return (
     <div className="HeaderText">
-      <div className="<header">
+      <div className="<header->text">
         <div className="TitleText">
           Virtual healthcare <br />
           for you

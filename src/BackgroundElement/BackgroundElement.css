@@ -1,0 +1,19 @@
+.backgroundElement {
+    overflow: hidden;
+  }
+  
+  .backgroundElement,
+  .backgroundElement * {
+    box-sizing: border-box;
+  }
+  
+  .backgroundElement {
+    position: relative;
+    width: 800px;
+    height: 700px;
+    margin: 0 auto;
+    background: url(src/assets/BackgroundElement.svg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: -5;
+  }
