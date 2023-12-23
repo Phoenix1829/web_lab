@@ -1,0 +1,165 @@
+.sliderPage {
+    overflow: hidden;
+  }
+  
+  .sliderPage,
+  .sliderPage * {
+    box-sizing: border-box;
+  }
+  
+  .sliderPage {
+    position: relative;
+    width: 80vw;
+    height: 440px;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .sliderPageContainer {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 89px;
+  }
+  
+  .pointsTopPage {
+    position: absolute;
+    width: 10.79%;
+    height: 26.14%;
+    top: 0; 
+    left: 89.21%;
+    background: url(src/assets/Points.svg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 2;
+  }
+  .sliderPageBackground {
+    position: absolute;
+    width: 92%;
+    height: 90%;
+    top: 15px;
+    left: 52px;
+    background: url(src/assets/BackgroundSlider.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 1;
+    border-radius: 24px;
+  }
+  .sliderPageTextBox {
+    position: absolute;
+    width: 63.75%;
+    height: 59.29%;
+    top: 15.06%;
+    left: 25.71%;
+    font-size: 0px;
+    z-index: 7;
+
+  }
+  .sliderPageTitle {
+    display: block;
+    position: relative;
+    height: 48px;
+    margin: 0 0 0 13px;
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    word-wrap: break-word;
+    z-index: 4;
+  }
+  .sliderPageDivider {
+    position: relative;
+    width: 56px;
+    height: 2px;
+    margin: 25px 0 0 246px;
+    background: white;
+    z-index: 7;
+    border-radius: 6px;
+  }
+  .sliderPageText {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 420px;
+    height: 47.62%;
+    top: 30%;
+    left: 41.18%;
+    color: white;
+    opacity: 0.9;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    z-index: 3;
+    word-wrap: break-word;
+  }
+  .sliderPageName {
+    white-space: break-spaces;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 19.05%;
+    top: 68.25%;
+    left: 0;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    white-space: break-word;
+    z-index: 5;
+  }
+  .sliderPageSub {
+    white-space: break-spaces;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 19.05%;
+    top: 80.95%;
+    left: 0;
+    color: white;
+    opacity: 0.85;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    white-space: break-word;
+    z-index: 6;
+  }
+  .Circle {
+    position: absolute;
+    width: 141px;
+    height: 141px;
+    top: 205px;
+    left: 118px;
+    background: url(src/assets/Circle.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 8;
+  }
+  .Avatar {
+    position: relative;
+    width: 133px;
+    height: 133px;
+    top: 209px;
+    left: 122px;
+    background: no-repeat center;
+    background-size: cover;
+    z-index: 9;
+    border-radius: 50%;
+  }
+  .pointsBackPage {
+    position: absolute;
+    width: 10.79%;
+    height: 26.14%;
+    top: 65%;
+    left: 0;
+    background: url(src/assets/Points.svg)
+      no-repeat center;
+    background-size: 100% 100%;
+  }

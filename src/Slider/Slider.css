@@ -1,0 +1,116 @@
+.Slider {
+    overflow: hidden;
+  }
+  
+  .Slider,
+  .Slider * {
+    box-sizing: border-box;
+  }
+  
+.Slider {
+  width: 80%;
+  height: 50%; 
+  margin: 0 auto;
+}
+  .forwardOn {
+    position: relative;
+    width: 31.429px;
+    height: 20px;
+    top: -20px;
+    left: 120px;
+    background: url(src/assets/Right.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 1;
+    overflow: hidden;
+    margin: auto;
+  }
+
+  .forwardOff {
+    position: relative;
+    width: 31.429px;
+    height: 20px;
+    top: -20px;
+    left: 120px;
+    background: url(src/assets/Left.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 1;
+    overflow: hidden;
+    margin: auto;
+    transform: rotate(180deg);
+  }
+
+  .backOn {
+    position: relative;
+    width: 31.429px;
+    height: 20px;
+    right: 120px;
+    background: url(src/assets/Right.svg)
+      no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+    margin: auto;
+    transform: rotate(180deg);
+  }
+
+  .backOff {
+    position: relative;
+    width: 31.429px;
+    height: 20px;
+    right: 120px;
+    background: url(src/assets/Left.svg)
+      no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+    margin: auto;
+  }
+
+  .slider1 {
+    justify-content: center;
+    position: relative;
+    width: 96px;
+    height: 10px;
+    top: -35px;
+    background: url(src/assets/SliderFirstPoint.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 2;
+    margin: auto;
+  }
+  .slider2 {
+    justify-content: center;
+    position: relative;
+    width: 96px;
+    height: 10px;
+    top: -35px;
+    background: url(src/assets/SliderSecondPoint.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 2;
+    margin: auto;
+  }
+  .slider3 {
+    justify-content: center;
+    position: relative;
+    width: 96px;
+    height: 10px;
+    top: -35px;
+    background: url(src/assets/SliderThirdPoint.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 2;
+    margin: auto;
+  }
+  .slider4 {
+    justify-content: center;
+    position: relative;
+    width: 96px;
+    height: 10px;
+    top: -35px;
+    background: url(src/assets/SliderFourthPoint.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 2;
+    margin: auto;
+  }

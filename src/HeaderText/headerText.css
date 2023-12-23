@@ -4,28 +4,15 @@
     width: 28vw;
   }
   
-  .HeaderText .header {
-    height: 100%;
-    left: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    right: 0;
-    bottom: 0;
-  }
-  
-  .HeaderText .TitleText {
+  .TitleText {
     color: var(--titleTextColor);
     font-size: 48px;
     font-weight: 700;
-    left: 0;
-    letter-spacing: 0;
     line-height: 56px;
     position: relative;
-    top: 0;
   }
   
-  .HeaderText .DescriptionText {
+  .DescriptionText {
     margin-top: -100px;
     color: var(--descriptionTextColor);
     font-size: 21px;
@@ -38,7 +25,7 @@
   }
   
   
-  .HeaderText .Button {
+  .Button {
     margin-top: -100px;
     height: 60px;
     left: 0;
@@ -54,7 +41,7 @@
   }
 
 
-  .HeaderText .ButtonText {
+  .ButtonText {
     color: var(--buttonTextColor);
     font-size: 18px;
     font-weight: 700;

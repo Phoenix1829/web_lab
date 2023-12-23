@@ -1,0 +1,34 @@
+.buttonblock,
+.buttonblock * {
+  box-sizing: border-box;
+}
+
+.buttonblock:hover {
+  background-color: var(--buttonBlockHoverColor);
+}
+
+.buttonblock {
+  position: relative;
+  width: 200px;
+  height: 60px;
+  margin: 0 auto;
+  border-radius: 55px;
+  border: 1.4px solid var(--buttonColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.buttontext {
+  justify-content: center;
+  display: flex;
+  align-items: flex-start;
+  height: 100%;
+  color: var(--buttonColor);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 1;
+}

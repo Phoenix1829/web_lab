@@ -1,0 +1,62 @@
+.leftheader {
+    overflow: hidden;
+  }
+  
+  .leftheader,
+  .leftheader * {
+    box-sizing: border-box;
+  }
+  
+  .leftheader {
+    position: relative;
+    width: 486px;
+    height: 700px;
+    margin: 0 auto;
+    font-size: 0px;
+  }
+  .lefttitle {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 350px;
+    height: 112px;
+    margin: 0 0 0 5px;
+    color: var(--titleTextColor);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    z-index: 3;
+  }
+  .leftdivider {
+    position: relative;
+    width: 56px;
+    height: 2px;
+    margin: 26px 0 0 5px;
+    background: var(--dividerColor);
+    z-index: 5;
+    border-radius: 10px;
+  }
+  .leftdescription {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 30vw;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5px;
+    color: var(--descriptionTextColor);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    z-index: 4;
+  }
+  
+  .leftbutton {
+    position: relative; 
+    margin-right: 58%;
+    margin-top: 50px;
+  }

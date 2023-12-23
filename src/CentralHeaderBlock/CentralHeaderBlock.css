@@ -1,13 +1,13 @@
-.block-header {
+.centralheader {
     overflow: hidden;
   }
   
-  .block-header,
-  .block-header * {
+  .centralheader,
+  .centralheader * {
     box-sizing: border-box;
   }
   
-  .block-header {
+  .centralheader {
     position: relative;
     width: 60vw;
     margin: 0 auto;
@@ -18,7 +18,7 @@
     display: block;
     position: relative;
     height: 56px;
-    color: var(--titleTextColor);
+    color: black;
     font-size: 36px;
     font-weight: 700;
     line-height: 56px;
@@ -29,7 +29,7 @@
     width: 56px;
     height: 2px;
     margin: 26px auto;
-    background: var(--dividerColor);
+    background: black;
     z-index: 2;
     border-radius: 5px;
   }

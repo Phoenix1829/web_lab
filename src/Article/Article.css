@@ -1,0 +1,84 @@
+.article {
+    overflow: hidden;
+  }
+  
+  .article,
+  .article * {
+    box-sizing: border-box;
+  }
+  
+  .article {
+    position: relative;
+    width: 350px;
+    height: 512px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: var(--shadow)
+  }
+  .articleContainer {
+    position: relative;
+    height: 240px;
+  }
+  .articleTitle {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 251px;
+    height: 64px;
+    margin: 24px 0 0 33px;
+    color: var(--titleTextColor);
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    text-overflow: initial;
+    z-index: 3;
+    overflow: hidden;
+  }
+  .articleDescription {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 266px;
+    height: 84px;
+    margin: 12px 0 0 33px;
+    color: var(--descriptionTextColor);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    z-index: 4;
+  }
+  .articleImage {
+    position: absolute;
+    width: 350px;
+    height: 240px;
+    top: 0;
+    left: 0;
+    background: url(src/assets/ArticlePictureOne)
+      no-repeat center;
+    background-size: cover;
+    z-index: 2;
+  }
+  .articleBtn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 5.47%;
+    top: 87.7%;
+    left: 9.43%;
+    color: var(--buttonColor);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 5;
+  }
+  .articleBtn:hover {
+    text-decoration: underline;
+  }

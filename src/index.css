@@ -6,7 +6,8 @@
   --buttonColor: #458ff6;
   --buttonTextColor: #ffffff;
   --logoTextColor: #233248;
-  --buttonHoverColor: #6ca9ff;
+  --buttonHoverColor: #649ded;
+  --buttonBlockHoverColor: #dfdfdf;
   --topNavigationTextColor: #1f1534;
   --dividerColor: #000000;
   --shadow: 0 100px 100px 0 rgba(228, 233, 245, 0.4);
