@@ -1,0 +1,118 @@
+.footer {
+    overflow: hidden;
+  }
+  
+  .footer,
+  .footer * {
+    box-sizing: border-box;
+  }
+  
+  .footer {
+    position: relative;
+    width: 100%;
+    height: 200%;
+  }
+  .footerPointsTop {
+    position: absolute;
+    width: 131px;
+    height: 115px;
+    right: 5%;
+    top: 0px;
+    background: url(src/assets/Points.svg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: -1;
+  }
+  .footerBackground {
+    position: absolute;
+    margin-top: 10%;
+    width: 100%;
+    height: 100%;
+    bottom: -5%;
+    background: url(src/assets/FooterBackground.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 1;
+  }
+  .footerHeaders {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+    flex-wrap: wrap;
+  }
+  .footerHead {
+    position: relative;
+    height: 100%;
+    top: 0;
+    left: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 10;
+  }
+  .footerCircle {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    margin-left: 0px;
+    margin-top: 10px;
+    background: url(src/assets/FooterEclipse.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 4;
+    border-radius: 50%;
+  }
+  .T {
+    position: absolute;
+    color: var(--buttonColor);
+    margin-left: 13px;
+    margin-top: 13px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+    z-index: 5;
+  }
+  .SubHead {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 211px;
+    max-width: 560px;
+    height: 100%;
+    left: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 38px;
+    text-align: left;
+    text-overflow: initial;
+    z-index: 9;
+    overflow: hidden;
+  }
+  .footerPointsBottom {
+    position: absolute;
+    width: 131px;
+    height: 175px;
+    top: 220px;
+    left: -100;
+    background: url(src/assets/Points.svg)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 17;
+  }
+  
+  .footerText {
+    display: flex; 
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    flex-wrap: wrap;
+  }

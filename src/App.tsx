@@ -11,6 +11,7 @@ import ButtonBlock from "./ButtonBlock/ButtonBlock";
 import LeftHeaderBlock from "./LeftHeaderBlock/LeftHeaderBlock";
 import Slider from "./Slider/Slider";
 import BlockArticle from "./BlockArticle/BlockArticle";
+import Footer from "./Footer/Footer";
 
 export default function App() {
   const [count, setCount] = useState(0);
@@ -164,6 +165,7 @@ export default function App() {
           <BackgroundElement />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
